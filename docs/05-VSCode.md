@@ -46,12 +46,7 @@
 cd pysrc&lt;Enter&gt;
 vi hello.py&lt;Enter&gt;</code>
 </pre>
-2. 소문자 'i' 키를 눌러서 입력 상태로 만들고 다음 코드를 입력한다.
-<pre><code>print('Hello! Welcome to the python world.')</code><pre>
-3. &lt;ESC&gt 키를 누른 뒤 ':wq&lt;Enter&gt;' 키 입력으로 파일 저장뒤에 에디터를 종료한다.
-
-4. &lt;CTRL&gt + 'X' 키를 눌러서 에디터에서 빠져 나온다.
-   * 'Save modified buffer?  (Answering "No" will DISCARD changes.)'가 나오면 
-
-
-
+2. 소문자 'i' 키를 눌러서 에디터를 입력 상태로 만들고 다음 코드를 입력한다.
+<pre><code>print('Hello!')</code></pre>
+3. &lt;ESC&gt; 키를 누른 뒤 ':wq&lt;Enter&gt;' 키 입력으로 에디터를 종료한다.
+4. 'cat hello.py&lt;Enter&gt;'로 입력 내용을 확인한다.
