@@ -6,4 +6,4 @@
 4. 'Install' 버튼 클릭
 5. 하단의 'Restart Now' 버튼 클릭
 
-https://youtu.be/kx7kpDC5llg
+[Youtube - Visual Studio Code 개발툴 한글화](https://youtu.be/kx7kpDC5llg)
