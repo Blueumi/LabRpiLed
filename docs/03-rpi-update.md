@@ -5,3 +5,5 @@
 <code>pi@raspberrypi:~ $ sudo apt-get update</code>
 <code>pi@raspberrypi:~ $ sudo apt-get upgrade</code>
 </pre>
+
+[YouTube - 라즈베리파이 OS 업데이트 및 업그레이드](https://youtu.be/ODfQbZxYp7Y)
