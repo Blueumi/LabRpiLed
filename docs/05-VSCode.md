@@ -19,7 +19,7 @@
 2. 'remotessh' 입력해서 나온 목록에서 'Remote-SSH:Connect to Host...' 선택한다.
 3. 박스 하단의 'Add New SSH Hosts...'를 선택한다.
 4. 'ssh pi@&lt;원격접속할 곳의 IP 주소&gt; -A'를 입력후 &lt;Enter&gt; 키를 누른다.
-5. 'C:\Users\&lt;User Account&gt;\.ssh\config'를 선택한다.
+5. 'C:\\Users\\&lt;User Account&gt;\\.ssh\\config'를 선택한다.
 6. 하단에 'Host added!' 팝업을 확인후 'Open Config' 버튼을 클릭한다.
    * 다음과 같이 정의되었음을 확인한다.
    <pre>
