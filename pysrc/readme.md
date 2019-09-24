@@ -1,1 +1,2 @@
-파이썬 학습: https://wikidocs.net/book/110
+# 파이썬 학습
+[Link](https://wikidocs.net/book/110)
