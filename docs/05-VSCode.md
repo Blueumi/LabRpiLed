@@ -22,21 +22,33 @@
 5. 'C:\\Users\\&lt;User Account&gt;\\.ssh\\config'를 선택한다.
 6. 하단에 'Host added!' 팝업을 확인후 'Open Config' 버튼을 클릭한다.
    * 다음과 같이 정의되었음을 확인한다.
-   <pre>
-     <code>
+   <pre><code>
      Host 192.168.137.227
        User pi
        ForwardAgent yes
-     </code>
-   </pre>
+   </code></pre>
+7. 'config' 탭의 'x'를 눌러서 편집창을 닫는다.
 
+# Visual Studio Code 원격 접속 테스트
 
-
-3. 박스 하단의 'Configure SSH Hosts...'를 선택한다.
-4. 'C:\Users\&lt;User Account&gt;\.ssh\config'를 선택한다.
+1. &lt;F1&gt; 키를 누른다.
+2. 목록에서 'Remote-SSH:Connect to Host...' 선택한다.
+3. 박스 하단에서 앞서 정의한 IP 주소를 선택한다.
 
 3. 'pi@&lt;원격접속할 곳의 IP 주소&gt;' 주소를 입력한다. (ex: pi@192.168.137.227)
 4. 'Windows 보안 경고' 창이 뜨면 '액세스 허용' 버튼을 클릭한다.
 5. 'Could not establish to "&lt;IP 주소&gt;". Connecting was canceled.' 오류창에서 'More Actions...' 버튼을 클릭한다.
+
+# Visual Studio Code 원격 소스 테스트
+
+1. TeraTerm으로 라즈베리파이에 접속한 뒤 다음 명령을 입력한다.
+<pre><code>mkdir pysrc&lt;Enter&gt;<br/>cd pysrc&lt;Enter&gt;<br/>vi hello.py&lt;Enter&gt;</code><pre>
+2. 소문자 'i' 키를 눌러서 입력 상태로 만들고 다음 코드를 입력한다.
+<pre><code>print('Hello! Welcome to the python world.')</code><pre>
+3. &lt;ESC&gt 키를 누른 뒤 ':wq&lt;Enter&gt;' 키 입력으로 파일 저장뒤에 에디터를 종료한다.
+
+4. &lt;CTRL&gt + 'X' 키를 눌러서 에디터에서 빠져 나온다.
+   * 'Save modified buffer?  (Answering "No" will DISCARD changes.)'가 나오면 
+
 
 
