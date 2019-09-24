@@ -22,11 +22,10 @@
 5. 'C:\\Users\\&lt;User Account&gt;\\.ssh\\config'를 선택한다.
 6. 하단에 'Host added!' 팝업을 확인후 'Open Config' 버튼을 클릭한다.
    * 다음과 같이 정의되었음을 확인한다.
-   <pre><code>
-     Host 192.168.137.227
+   <pre><code>Host 192.168.137.227
        User pi
-       ForwardAgent yes
-   </code></pre>
+       ForwardAgent yes</code>
+   </pre>
 7. 'config' 탭의 'x'를 눌러서 편집창을 닫는다.
 
 # Visual Studio Code 원격 접속 테스트
