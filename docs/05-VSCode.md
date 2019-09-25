@@ -8,6 +8,16 @@
 
 [Youtube - Visual Studio Code 개발툴 한글화](https://youtu.be/kx7kpDC5llg)
 
+# 테스트 디렉토리 및 소스 생성
+
+1. TeraTerm으로 라즈베리파이에 접속한 뒤 다음 명령을 입력한다.
+<pre><code>mkdir pysrc&lt;Enter&gt;
+cd pysrc&lt;Enter&gt;
+echo -e "print('Hello\041')" &gt; hello.py</code>
+</pre>
+2. 'cat hello.py&lt;Enter&gt;'로 입력 내용이 다음과 같은지 확인한다.
+<pre><code>print('Hello!')</code></pre>
+
 # Visual Studio Code 원격 개발툴 설치
 
 1. 좌측 'Extensions' 아이콘 클릭한다.
@@ -28,6 +38,7 @@
        ForwardAgent yes</code>
    </pre>
 7. 'config' 탭의 'x'를 눌러서 편집창을 닫는다.
+![.ssh config](../images/vscode-sshconfig.jpg)
 
 # Visual Studio Code 원격 접속 테스트
 
@@ -38,15 +49,3 @@
 3. 'pi@&lt;원격접속할 곳의 IP 주소&gt;' 주소를 입력한다. (ex: pi@192.168.137.227)
 4. 'Windows 보안 경고' 창이 뜨면 '액세스 허용' 버튼을 클릭한다.
 5. 'Could not establish to "&lt;IP 주소&gt;". Connecting was canceled.' 오류창에서 'More Actions...' 버튼을 클릭한다.
-
-# Visual Studio Code 원격 소스 테스트
-
-1. TeraTerm으로 라즈베리파이에 접속한 뒤 다음 명령을 입력한다.
-<pre><code>mkdir pysrc&lt;Enter&gt;
-cd pysrc&lt;Enter&gt;
-vi hello.py&lt;Enter&gt;</code>
-</pre>
-2. 소문자 'i' 키를 눌러서 에디터를 입력 상태로 만들고 다음 코드를 입력한다.
-<pre><code>print('Hello!')</code></pre>
-3. &lt;ESC&gt; 키를 누른 뒤 ':wq&lt;Enter&gt;' 키 입력으로 에디터를 종료한다.
-4. 'cat hello.py&lt;Enter&gt;'로 입력 내용을 확인한다.
