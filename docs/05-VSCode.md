@@ -51,6 +51,6 @@ echo -e "print('Hello\041')" &gt; hello.py</code>
 ![VSCode - Select folder](../images/vscode-sel_remotedir.jpg)
 6. 다시 나타난 'Enter password for pi@&lt;IP 조소&gt;' 박스에 'pi'의 암호를 입력하고 &lt;Enter&gt; 키를 누른다.
 7. 좌측 탐색기 창의 'hello.py'를 클릭해서 파일을 연다.
-![VSCode - Select hello.py](../images/vscode-sel_hellofile.jpg)
+![VSCode - Select hello.py](../images/vscode-sel-hellofile.jpg)
 
 
