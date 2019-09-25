@@ -8,6 +8,7 @@
 
 [Youtube - Visual Studio Code 개발툴 한글화](https://youtu.be/kx7kpDC5llg)
 
+
 # 테스트 디렉토리 및 소스 생성
 
 1. TeraTerm으로 라즈베리파이에 접속한 뒤 다음 명령을 입력한다.
@@ -18,11 +19,13 @@ echo -e "print('Hello\041')" &gt; hello.py</code>
 2. 'cat hello.py&lt;Enter&gt;'로 입력 내용이 다음과 같은지 확인한다.
 <pre><code>print('Hello!')</code></pre>
 
+
 # Visual Studio Code 원격 개발툴 설치
 
 1. 좌측 'Extensions' 아이콘 클릭한다.
 2. 검색 박스에 'Remote Development' 입력, 목록 선택후 'Install' 버튼 클릭한다.
 ![Extensions &gt; Remote Development](../images/vscode-extensions-removedevelopment.jpg)
+
 
 # Visual Studio Code 원격 개발 환경 설정
 
@@ -40,6 +43,7 @@ echo -e "print('Hello\041')" &gt; hello.py</code>
 7. 'config' 탭의 'x'를 눌러서 편집창을 닫는다.
 ![.ssh config](../images/vscode-sshconfig.jpg)
 
+
 # Visual Studio Code 원격 접속 테스트
 
 1. &lt;F1&gt; 키를 누른다.
@@ -54,3 +58,19 @@ echo -e "print('Hello\041')" &gt; hello.py</code>
 ![VSCode - Select hello.py](../images/vscode-sel-hellofile.jpg)
 
 
+# Visaul Studio Code 소스 편집 및 실행
+
+1. 원격의 'hello.py' 파일을 연다.
+2. 파일 내용을 수정한다.
+* 수정전
+<pre><code>print('Hello!')</code></pre>
+* 수정후
+<pre><code>print('Hello! Welcome to Python world!')</code></pre>
+3. '파일' > '저장' 또는 &lt;CTRL&gt;+'S' 키를 눌러서 변경된 소스를 저장한다.
+4. 탐색기 창의 'hello.py'를 우마우스 클릭 → '터미널 열기'를 선택한다.
+![VSCode - Open Terminal](../images/vscode-open-term.jpg)
+5. '터미널' 창에서 다음 명령들을 실행하여 결과를 확인한다.
+<pre><code>cat hello.py
+python3 hello.py</code>
+</pre>
+![VSCode - Run Hello file](../images/vscode-run-hello.jpg)
