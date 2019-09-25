@@ -71,6 +71,6 @@ echo -e "print('Hello\041')" &gt; hello.py</code>
 ![VSCode - Open Terminal](../images/vscode-open-term.jpg)
 5. '터미널' 창에서 다음 명령들을 실행하여 결과를 확인한다.
    <pre><code>cat hello.py
-python3 hello.py</code>
+   python3 hello.py</code>
    </pre>
 ![VSCode - Run Hello file](../images/vscode-run-hello.jpg)
