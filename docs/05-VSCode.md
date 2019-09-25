@@ -12,6 +12,7 @@
 
 1. 좌측 'Extensions' 아이콘 클릭한다.
 2. 검색 박스에 'Remote Development' 입력, 목록 선택후 'Install' 버튼 클릭한다.
+![Extensions &gt; Remote Development](../images/vscode-extensions-removedevelopment.jpg)
 
 # Visual Studio Code 원격 개발 환경 설정
 
