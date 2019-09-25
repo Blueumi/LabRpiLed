@@ -76,3 +76,5 @@
    python3 hello.py</code>
    </pre>
    ![VSCode - Run Hello file](../images/vscode-run-hello.jpg)
+
+> [Youtube - Visual Studio Code 원격 개발](https://youtu.be/UN92GX4sb6U)
