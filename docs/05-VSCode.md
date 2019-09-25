@@ -62,9 +62,9 @@ echo -e "print('Hello\041')" &gt; hello.py</code>
 
 1. 원격의 'hello.py' 파일을 연다.
 2. 파일 내용을 수정한다.
-* 수정전
+   * 수정전
 <pre><code>print('Hello!')</code></pre>
-* 수정후
+   * 수정후
 <pre><code>print('Hello! Welcome to Python world!')</code></pre>
 3. '파일' > '저장' 또는 &lt;CTRL&gt;+'S' 키를 눌러서 변경된 소스를 저장한다.
 4. 탐색기 창의 'hello.py'를 우마우스 클릭 → '터미널 열기'를 선택한다.
