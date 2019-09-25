@@ -9,11 +9,11 @@
 [Youtube - Visual Studio Code 개발툴 한글화](https://youtu.be/kx7kpDC5llg)
 
 
-# 테스트 디렉토리 및 소스 생성
+# 테스트 디렉토리 및 샘플 소스 생성
 
-1. TeraTerm으로 라즈베리파이에 접속한 뒤 다음 명령을 입력한다.
-<pre><code>mkdir pysrc&lt;Enter&gt;
-cd pysrc&lt;Enter&gt;
+1. TeraTerm으로 라즈베리파이에 접속한 뒤 다음 명령을 입력한다. (한 줄 끝에는 &lt;Enter&gt; 키를 누른다.)
+<pre><code>mkdir pysrc
+cd pysrc
 echo -e "print('Hello\041')" &gt; hello.py</code>
 </pre>
 2. 'cat hello.py&lt;Enter&gt;'로 입력 내용이 다음과 같은지 확인한다.
@@ -63,14 +63,14 @@ echo -e "print('Hello\041')" &gt; hello.py</code>
 1. 원격의 'hello.py' 파일을 연다.
 2. 파일 내용을 수정한다.
    * 수정전
-<pre><code>print('Hello!')</code></pre>
+   <pre><code>print('Hello!')</code></pre>
    * 수정후
-<pre><code>print('Hello! Welcome to Python world!')</code></pre>
+   <pre><code>print('Hello! Welcome to Python world!')</code></pre>
 3. '파일' > '저장' 또는 &lt;CTRL&gt;+'S' 키를 눌러서 변경된 소스를 저장한다.
 4. 탐색기 창의 'hello.py'를 우마우스 클릭 → '터미널 열기'를 선택한다.
 ![VSCode - Open Terminal](../images/vscode-open-term.jpg)
 5. '터미널' 창에서 다음 명령들을 실행하여 결과를 확인한다.
-<pre><code>cat hello.py
+   <pre><code>cat hello.py
 python3 hello.py</code>
-</pre>
+   </pre>
 ![VSCode - Run Hello file](../images/vscode-run-hello.jpg)
