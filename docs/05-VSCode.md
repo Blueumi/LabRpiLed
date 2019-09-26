@@ -3,6 +3,7 @@
 1. 좌측 'Extensions' 아이콘 클릭한다.
 2. 검색 박스에 'korean' 입력한다.
 3. 목록에서 'Korean Language Pack for Visual Studio Code' 선택한다.
+   ![Extensions &gt; Korean Language Pack](../images/vscode-korean.jpg)
 4. 'Install' 버튼 클릭한다.
 5. 하단의 'Restart Now' 버튼 클릭한다.
 
