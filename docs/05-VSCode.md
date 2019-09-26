@@ -1,4 +1,4 @@
-# Visual Studio Code 개발툴 한글화
+# Visual Studio Code 개발툴 한글 적용
 
 1. 좌측 'Extensions' 아이콘 클릭한다.
 2. 검색 박스에 'korean' 입력한다.
