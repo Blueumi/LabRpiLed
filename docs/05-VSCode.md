@@ -47,7 +47,7 @@
    ![.ssh config](../images/vscode-sshconfig.jpg)
 
 
-# Visual Studio Code 원격 접속 테스트
+# Visual Studio Code 원격 접속
 
 1. &lt;F1&gt; 키를 누른다.
 2. 목록에서 'Remote-SSH:Connect to Host...'를 선택한다.
