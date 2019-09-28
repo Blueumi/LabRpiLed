@@ -12,11 +12,11 @@
    <pre><code>cd ~/rpi-rgb-led-matrix/examples-api-use
    sudo ./demo --led-rows=32 --led-cols=64 --led-chain=1 --led-parallel=1 --led-no-hardware-pulse -D 9</code></pre>
    
-   * 전광판 그림이 깨어진다면 아래와 같이 '--led-slowdown-gpio' 값을 증가시켜 본다.
+   > 전광판 그림이 깨어진다면 아래와 같이 '--led-slowdown-gpio' 값을 증가시켜 본다.
    <pre><code>cd ~/rpi-rgb-led-matrix/examples-api-use
    sudo ./demo --led-rows=32 --led-cols=64 --led-chain=1 --led-parallel=1 --led-no-hardware-pulse --led-slowdown-gpio=2 -D 9</code></pre>
 
-# Python 모듈 설치 및 테스트
+# Python 모듈 설치
 
 1. 개발용 Python3를 설치한다.
    <pre><code>cd ~/rpi-rgb-led-matrix/bindings/python
@@ -27,10 +27,12 @@
    <pre><code>make build-python PYTHON=$(which python3)
    sudo make install-python PYTHON=$(which python3)</code></pre>
 
-3. Python으로 테스트를 진행한다.
-   <pre><code>cd ~/rpi-rgb-led-matrix/bindings/python/samples
-   sudo python3 ./simple-square.py --led-no-hardware-pulse LED_NO_HARDWARE_PULSE --led-chain 1 --led-parallel 1 --led-rows 32 --led-cols 64</code></pre>
+# Python 데모
 
-   * 전광판 그림이 깨어진다면 아래와 같이 '--led-slowdown-gpio' 값을 증가시켜 본다.
-   <pre><code>cd ~/rpi-rgb-led-matrix/bindings/python/samples
-   sudo python3 ./simple-square.py --led-no-hardware-pulse 1 --led-chain 1 --led-parallel 1 --led-rows 32 --led-cols 64 --led-slowdown-gpio 2</code></pre>
+> 작업 디렉토리: ~/rpi-rgb-led-matrix/bindings/python/samples
+> 전광판 그림이 깨어지는 경우에는 옵션에 '--led-slowdown-gpio 2'를 추가한다.
+
+1. 사각형
+   <pre><code>sudo python3 ./simple-square.py --led-no-hardware-pulse LED_NO_HARDWARE_PULSE --led-chain 1 --led-parallel 1 --led-rows 32 --led-cols 64</code></pre>
+
+2. 문자열
