@@ -1,4 +1,4 @@
-# 전광판(RGB LED Matrix) 준비
+# 전광판(RGB LED Matrix) 보드 준비
 
 # Install RGB LED Matrix Modules
 
