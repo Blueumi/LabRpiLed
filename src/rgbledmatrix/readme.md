@@ -13,8 +13,7 @@
    sudo ./demo --led-rows=32 --led-cols=64 --led-chain=1 --led-parallel=1 --led-no-hardware-pulse -D 9</code></pre>
    
    * 전광판 그림이 깨어진다면 아래와 같이 '--led-slowdown-gpio' 값을 증가시켜 본다.
-   <pre><code>cd ~/rpi-rgb-led-matrix/examples-api-use
-   sudo ./demo --led-rows=32 --led-cols=64 --led-chain=1 --led-parallel=1 --led-no-hardware-pulse --led-slowdown-gpio=2 -D 9</code></pre>
+   <pre><code>sudo ./demo --led-rows=32 --led-cols=64 --led-chain=1 --led-parallel=1 --led-no-hardware-pulse --led-slowdown-gpio=2 -D 9</code></pre>
 
 # Python 모듈 설치
 
