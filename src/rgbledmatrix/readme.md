@@ -26,7 +26,7 @@
    <pre><code>make build-python PYTHON=$(which python3)
    sudo make install-python PYTHON=$(which python3)</code></pre>
 
-# Python 데모
+# Python 기본 샘플
 
 * 작업 디렉토리: ~/rpi-rgb-led-matrix/bindings/python/samples
 * 전광판 그림이 깨어지는 경우에는 옵션에 '--led-slowdown-gpio 2'를 추가한다.
@@ -35,6 +35,10 @@
 
     2. 문자열
          <pre><code>sudo python3 ./runtext.py --led-no-hardware-pulse 1 --led-chain 1 --led-parallel 1 --led-rows 32 --led-cols 64 -t Hello</code></pre>
+
+# Python 변형 샘플
+  * runtext2.py : 한글 폰트 적용 예제
+  * rwbox.py : 그래픽과 문자 혼합 예제
 
 # Python 기준 모듈
 
