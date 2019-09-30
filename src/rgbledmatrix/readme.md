@@ -36,3 +36,13 @@
    <pre><code>sudo python3 ./simple-square.py --led-no-hardware-pulse LED_NO_HARDWARE_PULSE --led-chain 1 --led-parallel 1 --led-rows 32 --led-cols 64</code></pre>
 
 2. 문자열
+
+# Python 기준 모듈
+
+  1. ~/rpi-rgb-led-matrix/bindings/python/rgbmatrix
+    * core.pyx
+    * graphics.pyx
+
+  2. ~/rpi-rgb-led-matrix/bindings/python/samples
+     * graphics.py
+     * samplebase.py
