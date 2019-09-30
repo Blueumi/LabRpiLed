@@ -31,10 +31,10 @@
 
 * 작업 디렉토리: ~/rpi-rgb-led-matrix/bindings/python/samples
 * 전광판 그림이 깨어지는 경우에는 옵션에 '--led-slowdown-gpio 2'를 추가한다.
-   1. 사각형
+    1. 사각형
          <pre><code>sudo python3 ./simple-square.py --led-no-hardware-pulse 1 --led-chain 1 --led-parallel 1 --led-rows 32 --led-cols 64</code></pre>
 
-     2. 문자열
+    2. 문자열
          <pre><code>sudo python3 ./runtext.py --led-no-hardware-pulse 1 --led-chain 1 --led-parallel 1 --led-rows 32 --led-cols 64 -t Hello</code></pre>
 
 # Python 기준 모듈
