@@ -40,8 +40,8 @@
 # Python 기준 모듈
 
   1. ~/rpi-rgb-led-matrix/bindings/python/rgbmatrix
-    * core.pyx
-    * graphics.pyx
+     * core.pyx
+     * graphics.pyx
 
   2. ~/rpi-rgb-led-matrix/bindings/python/samples
      * graphics.py
