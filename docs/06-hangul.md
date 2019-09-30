@@ -1,8 +1,12 @@
 # 라즈베리파이 한글 폰트 설치
 
+1. 라즈베리파이에서 한글 보기용 폰트 설치
+   <pre><code>sudo apt-get install fonts-unfonts-core fonts-nanum fonts-nanum-extra</code></pre>
 
 # 전광판(RGB LED Matrix)용 폰트
-
+  > LED Matrix에서는 파일 확장자가 'bdf'인 폰트를 사용
+    * BDF(Glyph Bitmap Distribution Format, Adobe): 비트맵 글꼴 저장 파일 형식
+    
 1. 폰트 추출 프로그램 설치
    <pre><code>sudo apt-get install otf2bdf</code></pre>
 
