@@ -19,12 +19,12 @@
 # Python 모듈 설치
 
 1. 개발용 Python3를 설치한다.
-   <pre><code>cd ~/rpi-rgb-led-matrix/bindings/python
-   sudo apt-get update
+   <pre><code>sudo apt-get update
    sudo apt-get install python3-dev python3-pillow -y</code></pre>
 
 2. 빌더를 진행한다.
-   <pre><code>make build-python PYTHON=$(which python3)
+   <pre><code>cd ~/rpi-rgb-led-matrix/bindings/python
+   make build-python PYTHON=$(which python3)
    sudo make install-python PYTHON=$(which python3)</code></pre>
 
 # Python 기본 샘플
