@@ -20,8 +20,8 @@
       > 수정 필요
    
 3. 폰트 추출
-   <pre><code>
-   cd ~/rpi-rgb-led-matrix/fonts
+   <pre>
+   <code>cd ~/rpi-rgb-led-matrix/fonts
    otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx12.bdf -p 12
    otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx16.bdf -p 16
    otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx20.bdf -p 20
