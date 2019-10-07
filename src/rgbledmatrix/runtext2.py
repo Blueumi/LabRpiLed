@@ -19,7 +19,7 @@ class RunText2(SampleBase):
         offscreen_canvas = self.matrix.CreateFrameCanvas()
         font = graphics.Font()
         # font.LoadFont("../../../fonts/7x13.bdf")              # default
-        font.LoadFont("../../../fonts/NanumGothicBoldx22.bdf")
+        font.LoadFont("../../../fonts/NanumGothicBoldx22.bdf")  # Font Height 31 Baseline 25
         textColor = graphics.Color(255, 255, 0)
         pos = offscreen_canvas.width
         vpos = font.baseline + 1
