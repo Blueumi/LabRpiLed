@@ -38,5 +38,5 @@
    otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx12.bdf -p 12
    otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx16.bdf -p 16
    otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx20.bdf -p 20
-   otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx28.bdf -p 28
+   otf2bdf ~/WinFonts/NanumGothicBold.ttf -o NanumGothicBoldx22.bdf -p 22
    </code></pre>
