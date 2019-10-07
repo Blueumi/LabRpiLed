@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script type="text/javascript">
+        // 문자열 지우기
+        function clear_cont() {
+            var dom_cont = document.getElementById('cont');
+            if (undefined != dom_cont) {
+                dom_cont.value = '';
+            }
+        }
+
+        // 문자열 전송시 문자열이 있는지 검사
+        function send_ok() {
+            var dom_cont = document.getElementById('cont').value;
+            if (undefined != dom_cont && '' != dom_cont) {
+                return true;
+            }
+            alert('출력할 문자열을 입력해 주세요.');
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <h1>LED 전광판으로 글자 출력하기</h1>
+    <form action="/send_cont" method="post">
+        * 출력할 문자열: <input type="text" name="cont" id="cont" value="{{led_str}}"/><br/>
+        <button type="submit" onclick="return send_ok();">전광판으로 보내기</button>
+        <input type="button" value="문자열 지우기" onclick="clear_cont();"/>
+    </form>
+</body>
+</html>
