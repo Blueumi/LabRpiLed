@@ -19,15 +19,16 @@ class RunText2(SampleBase):
         offscreen_canvas = self.matrix.CreateFrameCanvas()
         font = graphics.Font()
         # font.LoadFont("../../../fonts/7x13.bdf")              # default
-        font.LoadFont("../../../fonts/NanumGothicBoldx28.bdf")
+        font.LoadFont("../../../fonts/NanumGothicBoldx22.bdf")
         textColor = graphics.Color(255, 255, 0)
         pos = offscreen_canvas.width
+        vpos = font.baseline + 1
+
         my_text = self.args.text
 
         while True:
             offscreen_canvas.Clear()
-            # len = graphics.DrawText(offscreen_canvas, font, pos, 10, textColor, my_text)
-            len = graphics.DrawText(offscreen_canvas, font, pos, 30, textColor, my_text)
+            len = graphics.DrawText(offscreen_canvas, font, pos, vpos, textColor, my_text)
             pos -= 1
             if (pos + len < 0):
                 pos = offscreen_canvas.width
