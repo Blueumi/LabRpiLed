@@ -3,3 +3,7 @@
 
 # 기준 소스
   * [hzeller/rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix)
+
+# 질문은 카카오톡 오픈챗팅방으로
+  * https://open.kakao.com/o/gS8h2pHb
+  * 검색 : [잡프샵] Rpi IoT 컬러 전광판
