@@ -32,7 +32,7 @@
 
 # Visual Studio Code 원격 개발 환경 설정
 
-1. &lt;F1&gt; 키를 누른다.
+1. &lt;F1&gt; 키를 누른다. (또는 &lt;CTRL&gt;+&lt;SHIFT&gt;+P 키를 누른다.)
 2. 'remotessh' 입력해서 나온 목록에서 'Remote-SSH:Connect to Host...'를 선택한다.
 3. 박스 하단의 'Add New SSH Hosts...'를 선택한다.
 4. 'ssh pi@&lt;원격접속할 곳의 IP 주소&gt; -A'를 입력후 &lt;Enter&gt; 키를 누른다.
