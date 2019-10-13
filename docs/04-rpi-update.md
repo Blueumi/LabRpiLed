@@ -7,6 +7,6 @@ pi@raspberrypi:~ $ sudo apt-get upgrade</code>
 </pre>
 
 > 필요시 설치
-<pre><code>sudo apt-get install rpi.gpio</code></pre>
+<pre><code>sudo apt-get install rpi.gpio rpi.gpio-common</code></pre>
 
 [YouTube - 라즈베리파이 OS 업데이트 및 업그레이드](https://youtu.be/ODfQbZxYp7Y)
