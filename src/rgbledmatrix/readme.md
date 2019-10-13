@@ -1,4 +1,5 @@
 # 전광판(RGB LED Matrix) 보드 준비
+  * (주의) 라즈베리파이에 연결하는 RGB LED Matrix 패널은 입력 전압이 5V이므로 12V, 24V에는 연결하지 말 것!
 
 # Install RGB LED Matrix Modules
 
