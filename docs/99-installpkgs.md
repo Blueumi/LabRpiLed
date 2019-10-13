@@ -16,5 +16,5 @@
 6. upgrade
    <pre><code>sudo apt-get upgrade</code></pre>
    * Upgrade 종료시 'E:Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?'와 같은 메시지가 나오면 추가 작업을 진행한다.
-       <pre><code>sudo apt-get update
-       sudo apt-get upgrade --fix-missing</code></pre>
+   <pre><code>sudo apt-get update
+   sudo apt-get upgrade --fix-missing</code></pre>
