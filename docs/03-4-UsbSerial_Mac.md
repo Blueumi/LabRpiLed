@@ -17,7 +17,7 @@
       * '/dev/tty.usbserial'이 나오지 않을 경우
         1. '시스템 환경설정' > '보안 및 개인 정보 보호' 선택
            * Lock이 걸려 있으면 Lock 해제
-        2. '"Prolific" was blocked from loading.'에 있는 '승인' 버튼 클릭
+        2. '"Prolific ..." was blocked from loading.'에 있는 '승인' 버튼 클릭
            * Lock이 해제되어 있으며 Lock 처리
 
 3. '터미널'에서 시리얼 프로그램으로 연결
