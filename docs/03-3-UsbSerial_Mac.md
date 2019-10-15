@@ -1,4 +1,4 @@
-MAC에서 USB Serial 연결 및 SSH를 통한 라즈베리파이 접속
+# MAC에서 USB Serial 연결 및 SSH를 통한 라즈베리파이 접속
 
 1. USB Serial 드라이버 다운로드후 설치
    > USB Serial에 맞는 드라이버 선택. 아래는 'PL2303HX' 칩을 사용한 드라이버 사이트임.
