@@ -22,7 +22,7 @@
 
 3. '터미널'에서 시리얼 프로그램으로 연결
    <pre><code>$ <b><u><i>screen /dev/tty.usbserial 115200</i></u></b>&lt;Enter&gt;
-   <Enter>
+   &lt;Enter&gt;
    raspberrypi login: <b><u><i>pi</i></u></b>&lt;Enter&gt;
    Password: &lt;<b><u><i>pi password</i></u></b>&gt;&lt;Enter&gt;
    ...
