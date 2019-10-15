@@ -13,7 +13,7 @@
       * 'PL2303HX'인 경우 'Prolific Technology Inc.'로 나옴
    3. '유틸리티' > '터미널' 실행후 tty 확인 
       <pre><code>$ <b><u><i>ls /dev/tty.*</i></u></b>&lt;Enter&gt;
-      /dev/tty.Bluetooth-Incoming-Port	/dev/tty.usbserial</code></pre>
+      /dev/tty.Bluetooth-Incoming-Port	<b>/dev/tty.usbserial</b></code></pre>
       * '/dev/tty.usbserial'이 나오지 않을 경우
         1. '시스템 환경설정' > '보안 및 개인 정보 보호' 선택
            * Lock이 걸려 있으면 Lock 해제
