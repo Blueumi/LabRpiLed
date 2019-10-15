@@ -23,7 +23,7 @@
    raspberrypi login: <b><u><i>pi</i></u></b>&lt;Enter&gt;
    Password: &lt;<b><u><i>pi password</i></u></b>&gt;&lt;Enter&gt;
    ...
-   $</code></pre>
+   $ ■</code></pre>
 
 4. 시리얼 프로그램에서 할당된 IP 주소 확인
    <pre><code>$ <b><u><i>ifconfig</i></u></b>&lt;Enter&gt;
@@ -51,11 +51,11 @@
            RX errors 0  dropped 0  overruns 0  frame 0
            TX packets 32  bytes 4983 (4.8 KiB)
            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-   $</code></pre>
+   $ ■</code></pre>
    
 5. '터미널'에서 SSH로 라즈베리파이에 연결하기
    * 앞서 '4'에서의 WiFi IP 주소(여기서는 192.168.100.80으로 가정함) 확인
    <pre><code>$ <b><u><i>ssh pi@192.168.100.80 -A</i></u></b>&lt;Enter&gt;
    pi@192.168.100.80's password: &lt;<b><u><i>pi password</i></u></b>&gt;&lt;Enter&gt;
    ...
-   $</code></pre>
+   $ ■</code></pre>
