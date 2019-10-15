@@ -6,12 +6,17 @@ import time
 # RGB 핀 번호
 LED_PINS = [ 10, 9, 11 ]    # RGB 핀 번호
 
-# LED 공통 핀이 GND인 경우에는 ON이 HIGH, OFF가 LOW
-# LED 공통 핀이 +인 경우에는 ON이 HIGH, OFF가 LOW
+# 기본 상수 정의
+# LED 공통핀이 GND인지 여부
 IS_LED_COMMON_PIN_GND = False
 
+# LED 공통핀이 GND인 경우에는 ON이 HIGH, OFF가 LOW
+# LED 공통핀이 +인 경우에는 ON이 LOW, OFF가 HIGH
 LED_ON = GPIO.HIGH if IS_LED_COMMON_PIN_GND == True else GPIO.LOW
 LED_OFF = GPIO.LOW if IS_LED_COMMON_PIN_GND == True else GPIO.HIGH
+
+# LED 공통핀이 GND인 경우 Duty 최대값은 100(On), 최소값은 0(Off)이다.
+# LED 공통핀이 +인 경우 Duty 최대값은 0(On), 최소값은 100(Off)이다.
 DUTY_ON = 100 if IS_LED_COMMON_PIN_GND == True else 0
 DUTY_OFF = 0 if IS_LED_COMMON_PIN_GND == True else 100
 
@@ -26,6 +31,8 @@ colors = [
         ,   {'name': '보라', 'color':0x8b00ff }
         ]
 
+#-----------------------------------------------------------------[ functions ]
+# (함수) remap(x, in_max, out_max)
 # 입력값을 0에서 out_max 사이의 값으로 바꾼다.
 # - x : 색상 16진수
 # - in_max : 0x00 ~ 0xFF
@@ -33,6 +40,7 @@ colors = [
 def remap(x, in_max, out_max):
     return (out_max / in_max) * x
 
+# (함수) setColor(col)
 # LED 색 설정
 # ex) col = 0xRRGGBB
 def setColor(col):
@@ -63,7 +71,7 @@ def setColor(col):
     PWM_G.ChangeDutyCycle(new_g)
     PWM_B.ChangeDutyCycle(new_b)
 
-# main
+#----------------------------------------------------------------------[ main ]
 GPIO.setmode(GPIO.BCM)              # GPIO BCM 모드 설정
 GPIO.setwarnings(False)
 
