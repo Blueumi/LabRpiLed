@@ -1,4 +1,5 @@
-# Windows 8이하 에서 USB Serial 연결 및 TeraTerm을 통한 라즈베리파이 접속
+# Windows 8이하용
+# USB Serial 연결 및 TeraTerm을 통한 라즈베리파이 접속
   > Windows 8 이하에서 테스트 진행하지 않아서 정상 동작이 안될 수도 있음
 
 1. USB Serial COM 포트 확인

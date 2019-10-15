@@ -1,4 +1,5 @@
-# Windows에서 USB Serial 연결 및 TeraTerm을 통한 라즈베리파이 접속
+# Windows 10용
+# USB Serial 연결 및 TeraTerm을 통한 라즈베리파이 접속
   > 미완성 문서임
 
 1. USB Serial COM 포트 확인
