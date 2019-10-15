@@ -43,8 +43,8 @@ MAC에서 USB Serial 연결 및 SSH를 통한 라즈베리파이 접속
            TX packets 0  bytes 0 (0.0 B)
            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-   <b><u><s>wlan0</s></u></b>: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-           inet <b><u><s>192.168.100.80</s></u></b>  netmask 255.255.255.0  broadcast 192.168.100.255
+   <b><s>wlan0</s></b>: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+           inet <b><s>192.168.100.80</s></b>  netmask 255.255.255.0  broadcast 192.168.100.255
            inet6 fe80::3bc1:51af:9874:e532  prefixlen 64  scopeid 0x20<link>
            ether b8:27:eb:5f:58:d3  txqueuelen 1000  (Ethernet)
            RX packets 10  bytes 1171 (1.1 KiB)
