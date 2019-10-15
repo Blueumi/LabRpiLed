@@ -1,4 +1,5 @@
-# MAC에서 USB Serial 연결 및 SSH를 통한 라즈베리파이 접속
+# MAC O/S용
+# USB Serial 연결 및 SSH를 통한 라즈베리파이 접속
 
 1. USB Serial 드라이버 다운로드후 설치
    1. USB Serial에 맞는 드라이버 선택하여 드라이버 설치
