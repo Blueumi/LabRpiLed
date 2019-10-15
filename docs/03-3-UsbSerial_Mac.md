@@ -1,3 +1,5 @@
+MAC에서 USB Serial 연결 및 SSH를 통한 라즈베리파이 접속
+
 1. USB Serial 드라이버 다운로드후 설치
    > USB Serial에 맞는 드라이버 선택. 아래는 'PL2303HX' 칩을 사용한 드라이버 사이트임.
    * https://plugable.com/drivers/prolific/
@@ -23,7 +25,7 @@
    ...
    $</code></pre>
 
-4. 할당된 IP 주소 확인
+4. 시리얼 프로그램에서 할당된 IP 주소 확인
    <pre><code>$ ifconfig&lt;Enter&gt;
    eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
            ether b8:27:eb:0a:0d:86  txqueuelen 1000  (Ethernet)
@@ -50,4 +52,12 @@
            TX packets 32  bytes 4983 (4.8 KiB)
            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
    $</code></pre>
-  
+   
+5. '터미널'에서 SSH로 라즈베리파이에 연결하기
+   > 앞서 '4'에서의 WiFi IP 주소(여기서는 192.168.100.80으로 가정함) 확인
+   <pre><code>ssh pi@192.168.100.80 -A&lt;Enter&gt;
+   pi@192.168.100.80's password: &lt;<b><u><i>pi password</i></u></b>&gt;&lt;Enter&gt;
+   ...
+   $</code></pre>
+
+
