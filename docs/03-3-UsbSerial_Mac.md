@@ -54,10 +54,8 @@ MAC에서 USB Serial 연결 및 SSH를 통한 라즈베리파이 접속
    $</code></pre>
    
 5. '터미널'에서 SSH로 라즈베리파이에 연결하기
-   > 앞서 '4'에서의 WiFi IP 주소(여기서는 192.168.100.80으로 가정함) 확인
-   <pre><code>ssh pi@192.168.100.80 -A&lt;Enter&gt;
+   * 앞서 '4'에서의 WiFi IP 주소(여기서는 192.168.100.80으로 가정함) 확인
+   <pre><code>$ <b><u><i>ssh pi@192.168.100.80 -A</i></u></b>&lt;Enter&gt;
    pi@192.168.100.80's password: &lt;<b><u><i>pi password</i></u></b>&gt;&lt;Enter&gt;
    ...
    $</code></pre>
-
-
