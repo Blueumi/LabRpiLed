@@ -58,7 +58,14 @@
    
 5. '터미널'에서 SSH로 라즈베리파이에 연결하기
    * 앞서 '4'에서의 WiFi IP 주소(여기서는 192.168.100.80으로 가정함) 확인
-   <pre><code>$ <b><u><i>ssh pi@192.168.100.80 -A</i></u></b>&lt;Enter&gt;
-   pi@192.168.100.80's password: &lt;<b><u><i>pi password</i></u></b>&gt;&lt;Enter&gt;
+   <pre><code>$ <b><u><i>ssh pi@192.168.100.80 -A</i></u></b>&lt;Enter&gt;</code></pre>
+   
+   * 첫 연결인 경우 나오는 메시지에서 'yes' 입력
+   <pre><code>The authenticity of host '192.168.100.80 (192.168.100.80)' can't be established.
+   ECDSA key fingerprint is SHA256:...
+   Are you sure want to continue connecting (yes/no)? <b><u><i>yes</i></u></b>&lt;Enter&gt;</code></pre>
+   
+   * 'password'에 pi 암호 입력
+   <pre><code>pi@192.168.100.80's password: &lt;<b><u><i>pi password</i></u></b>&gt;&lt;Enter&gt;
    ...
    $ ■</code></pre>
