@@ -1,10 +1,10 @@
-1. GPIO 라이브러리 설정 
+1. GPIO 라이브러리 설치
    <pre><code>sudo apt-get install rpi.gpio rpi.gpio-common</code></pre>
    
 2. 라즈베리파이 GUI에서 한글 보기용 폰트 설치
    <pre><code>sudo apt-get install fonts-unfonts-core fonts-nanum fonts-nanum-extra</code></pre>
 
-3. 폰트 추출 프로그램
+3. 폰트 추출 프로그램 설치
    <pre><code>sudo apt-get install otf2bdf</code></pre>
 
 4. 개발용 Python 설치
